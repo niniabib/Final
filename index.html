@@ -4,82 +4,333 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b98a689406.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Find Your Dream Home</title>
 </head>
 <body>
     <header>
       <div class="header">
-        <p class="rental"><span class="letter">R</span>ENTAL</p>
-        <nav>
+        <a class="rental" href="#home"><span class="letter">R</span>ENTAL</a>
+        <nav class="navigation" id="navigation">
             <ul class="nav-ul">
                 <li>
-                    <a class="nav-li" href="index.html">Home</a>
+                    <a class="nav-li" href="#home">Home</a>
                 </li>
                 <li>
-                    <a class="nav-li1" href="page2.html">About</a>
+                    <a class="nav-li1" href="#search">Search</a>
                 </li>
                 <li>
-                    <a class="nav-li2" href="page3.html">Featured</a>
+                    <a class="nav-li2" href="#featured">Featured</a>
                 </li>
                 <li>
-                    <a class="nav-li3" href="page4.html">Contact</a>
+                    <a class="nav-li3" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
-        <div class="header2">
-            <img class="header-img2" src="images/search.png" alt="">
-            <p class="header-p">Saved Search</p>
+        <div class="burger" id="bar"> 
+            <i class="fa-solid fa-bars"></i>
         </div>
         <div class="header3">
             <img class="header-img3" src="images/bell1.png" alt="">
         </div>
-        <div class="header4">
+        <!--<div class="header4">
             <p class="header-p2">LOGIN</p>
-        </div>
+        </div>-->
       </div>
     </header>
-    <section>
+    <section id="home">
         <div class="main-div">
             <img class="image1-main" src="images/main.webp" alt="House Image">
             <div class="inside-div1">
                 <h1 class="block-h">Let's find your <span class="dreams">Dreams...</span></h1>
                 <p class="block-p1">Building award winning properties across London  UK and the All world</p>
+            </div>   
+            <!--
+        
+        <form class="big-div1" action="/action-page.php">
+            <div class="form-wraper">
+                <label class="label1" for="where">City/Street</label><br>
+                <input class="input-form" type="text" id="city" placeholder="Enter City"> <br>
             </div>
-            <div class="inside-div2">
-                <div class="inside-div3">
-                    <p class="buy">Buy</p>
-                </div>
-                <div class="inside-div4">
-                    <p class="sell">Sell</p>
-                </div>
-                <div class="inside-div5">
-                    <p class="rent">Rent</p>
-                </div>
+            <div class="form-wraper">
+                <label class="label1" for="where">Apartment Type</label><br>
+                <input class="input-form" type="text" id="type" placeholder="Enter Type"> <br>
             </div>
-            <div class="big-div1">
-                <div class="big-inside">
-                    <div class="big1">
-                        <p class="p1">City/Street</p>
-                        <p class="p4">Enter City:</p>
-                    </div>
-                    <div class="big2">
-                        <p class="p2">Apartment Type</p>
-                        <p class="p5">Deluxe Portion:</p>
-                    </div>
-                    <div class="big3">
-                        <p class="p3">Price Range</p>
-                        <p class="p6">Min price - Max price:</p>
-                    </div>
-                </div>
-                <div class="big-inside2">
-                    <p class="advande">+Advance Filter</p>
-                </div>
-                <div class="big-inside3">
-                    <p class="search">Search</p>
-                </div>
+            <div class="form-wraper"> 
+                <label class="label1" for="where">Price Range</label><br>
+                <input class="input-form" type="text" id="price" placeholder="Min price - Max price"> <br>
             </div>
+            <button class="btn-search" type="submit" value="search"> Search </button>
+        </form>
+
+        </div>  -->    
     </section>
+    <section id="search" class="seaction2">
+        <h3 class="hi">HI, What do you want to your
+            Dream Apartment </h3>
+        <form class="big-div1" action="/action-page.php">
+            <div class="form-wraper">
+                <label class="label1" for="where">City/Street</label><br>
+                <input class="input-form" type="text" id="city" placeholder="Enter City"> <br>
+            </div>
+            <div class="form-wraper">
+                <label class="label1" for="where">Apartment Type</label><br>
+                <input class="input-form" type="text" id="type" placeholder="Enter Type"> <br>
+            </div>
+            <div class="form-wraper"> 
+                <label class="label1" for="where">Price Range</label><br>
+                <input class="input-form" type="text" id="price" placeholder="Min price - Max price"> <br>
+            </div>
+            <button class="btn-search" type="submit" value="search"> Search </button>
+        </form>
+        <div class="titles-p1">
+        <!--<h3 class="hi">HI, What do you want to your
+            Dream Apartment </h3>-->
+        <p class="select">Select a Apartment type below to begins</p> 
+        </div>
+        <div class="section2">
+            <div class="section2-div">
+                <img class="little-image1" src="images/31.jpeg" alt="apartament image">
+                <p class="section2-p">Deluxe Portion</p>
+            </div>
+            <div class="section2-div">
+                <img class="little-image1" src="images/32.jpeg" alt="apartament image">
+                <p class="section2-p">Double Height</p>
+            </div>
+            <div class="section2-div">
+                <img class="little-image1" src="images/33.jpeg" alt="apartament image">
+                <p class="section2-p">Penthouse</p>
+            </div>
+            <div class="section2-div">
+                <img class="little-image1" src="images/35.jpeg" alt="apartament image">
+                <p class="section2-p">The Studio</p>
+            </div>
+        </div>
+        <div class="div-continue">
+            <p class="continue">Continue</p>
+        </div>
+        <div class="boxes">
+            <div class="boxes1"></div>
+            <div class="boxes1"></div>
+            <div class="boxes1"></div>
+        </div>
+    </section>
+    <section id="featured">
+        <div class="title-p2">
+        <h3 class="featured">Featured Apartment</h3>
+        <p class="themost">The Most frequently searched and most popular apartment of the application will be in the list</p>
+        </div>
+        <div class="wraper">
+            <div class="inside-wraper">
+                <div class="inside2">
+                <img class="wraper-img" src="images/section1.jpeg" alt="house image">
+                </div>
+                <div class="logo-text">
+                <img class="geo-alt" src="images/geo-alt.png" alt="logo">
+                <p class="adress">Knightsbridge</p>
+                </div>
+                <p class="price">$2,500</p>
+                <h4 class="wraper-h">Apartament London</h4>
+                <p class="wraper-text">Beautiful Huge 1 family House in heart of 
+                westbury newly Renovated With New Furniture</p>
+                <div class="one-main">
+                    <div class="one">
+                      <div class="one1">
+                       <p class="numbers">2</p>
+                       <img class="image-one" src="images/bed.png" alt="logo">
+                      </div>
+                      <p class="rooms">Bedrooms</p>
+                    </div>
+                    <div class="one2">
+                        <div class="one2-inside">
+                            <p class="numbers">2</p>
+                            <img class="image-one" src="images/shower.png" alt="logo">
+                        </div>
+                        <p class="rooms">Bathrooms</p>
+                    </div>
+                    <div class="one3">
+                        <div class="one3-inside">
+                            <p class="numbers">1776</p>
+                            <img class="image-one" src="images/squre.png" alt="logo">
+                        </div>
+                        <p class="rooms">Squre Ft</p>
+                    </div>
+                </div>
+            </div>
+            <div class="inside-wraper">
+                <div class="inside2">
+                <img class="wraper-img" src="images/section4.jpeg" alt="house image">
+                </div>
+                <div class="logo-text">
+                <img class="geo-alt" src="images/geo-alt.png" alt="logo">
+                <p class="adress">Belmont Gardens, Chicago</p>
+                </div>
+                <p class="price">$300,000</p>
+                <h4 class="wraper-h">Studio Apartament</h4>
+                <p class="wraper-text">Beautiful Huge 1 family House 
+                in heart of westbury newly Renovated With New Furniture</p>
+                <div class="one-main">
+                    <div class="one">
+                      <div class="one1">
+                       <p  class="numbers">3</p>
+                       <img class="image-one" src="images/bed.png" alt="logo">
+                      </div>
+                      <p class="rooms">Bedrooms</p>
+                    </div>
+                    <div class="one2">
+                        <div class="one2-inside">
+                            <p class="numbers">2</p>
+                            <img class="image-one" src="images/shower.png" alt="logo">
+                        </div>
+                        <p class="rooms">Bathrooms</p>
+                    </div>
+                    <div class="one3">
+                        <div class="one3-inside">
+                            <p class="numbers">2500</p>
+                            <img class="image-one" src="images/squre.png" alt="logo">
+                        </div>
+                        <p class="rooms">Squre Ft</p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="inside-wraper">
+                <div class="inside2">
+                <img  class="wraper-img" src="images/section3.jpeg" alt="house image">
+                </div>
+                <div class="logo-text">
+                <img class="geo-alt" src="images/geo-alt.png" alt="logo">
+                <p class="adress">Timber Yard, Birmingham City Centre, B5</p>
+                </div>
+                <p class="price">$3,800</p>
+                <h4 class="wraper-h">Galliard Homes Apartment</h4>
+                <p class="wraper-text">this fabulous two bedroom duplex 
+                apartment will be close to some of the best local haunts and venues the city has to offer.</p>
+                <div class="one-main">
+                    <div class="one">
+                      <div class="one1">
+                       <p  class="numbers">2</p>
+                       <img class="image-one" src="images/bed.png" alt="logo">
+                      </div>
+                      <p class="rooms">Bedrooms</p>
+                    </div>
+                    <div class="one2">
+                        <div class="one2-inside">
+                            <p class="numbers">1</p>
+                            <img class="image-one" src="images/shower.png" alt="logo">
+                        </div>
+                        <p class="rooms">Bathrooms</p>
+                    </div>
+                    <div class="one3">
+                        <div class="one3-inside">
+                            <p class="numbers">1041</p>
+                            <img class="image-one" src="images/squre.png" alt="logo">
+                        </div>
+                        <p class="rooms">Squre Ft</p>
+                    </div>
+                </div>         
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="boxes1"></div>
+            <div class="boxes1"></div>
+            <div class="boxes1"></div>
+        </div>
+    </section>
+    <section class="multi-sec">
+        <h2 class="apart">Apartment Plans</h2>
+<!--       <div class="multi-div">
+            <p class="multi-p">The Stuido</p>
+            <p class="multi-p">Deluxe potions</p>
+            <p class="multi-p">Penthouse</p>
+            <p class="multi-p">Top Garden</p>
+            <p class="multi-p">Double Height</p>
+        </div>-->
+        <div class="multi2"> 
+            <div class="multi2-inside">
+                <h3 class="multi-h">Deluxe Portion</h3>
+                <p class="multi-text">Boasting chic interiors, three private balconies
+                  and a remarkable terrace, this two bedroom apartment will 
+                  epitomise complete luxury. Not only will residents benefit 
+                  from a superb location in the heart of Shoreditch, but they 
+                  will also enjoy unrivalled facilities and a 24-hour bespoke concierge.</p>
+                <p class="multi-p">Total Area      ..........................................................     2800 Sq. Ft</p>
+                <p class="multi-p">Bedroom       ..........................................................     2800 Sq. Ft</p>
+                <p class="multi-p">Bathroom       ..........................................................     2800 Sq. Ft</p>
+                <p class="multi-p">Smoking/ pets   .....................................................     2800 Sq. Ft</p>
+                <p class="multi-p">Lounge             ..........................................................     2800 Sq. Ft</p>
+            </div class="multi-img-div">
+            <img class="multi-image" src="images/Image 6.png" alt="image">
+        </div>
+    </section>
+    <section>
+        <div class="biggie-div">
+            <div class="biggie1">
+                <h2 class="buy-h">Buy Dream Apartment In <span class="prime-span">Prime location</span></h2>
+                <div class="see">
+                    <p class="see-p">See All Apartaments</p>
+                </div>
+            </div>
+            <div class="biggie2">
+                <img class="house1" src="images/house1.jpg" alt="house image">
+                <img class="house2" src="images/house2.jpg" alt="house image">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="q-main">
+            <h2 class="q-h">Frequently Asked Questions</h2>
+            <div class="q-inside1">
+                <h3 class="q-h3">What the First Step of the Dream Apartment buying process ?</h3>
+                <p class="q-p">First, you need to know how much you can borrow, knowing how much home you can afford narrows down online apartment searching to suitable Properties , thus no time is Wasted  considering apartment that are not within your dream and budget.</p>
+            </div>
+            <div class="q-inside1">
+                <h3 class="q-h3">How Long does It take to buy Apartment ?</h3>
+            </div>
+            <div class="q-inside1">
+                <h3 class="q-h3">How much do I need for a down payment ?</h3>
+            </div>
+            <div class="q-inside1">
+                <h3 class="q-h3">What is a buyer's market ?</h3>
+            </div>
+            <div class="q-inside1">
+                <h3 class="q-h3">What is popular in  Apartment ?</h3>
+            </div>
+        </div>
+    </section>
+<footer>
+    <div class="footer-main">
+        <div class="footer-div1">
+            <a class="rental2" href="#home">RENTAL</a>
+            <p class="footer-p"> The most beautiful exclusive properties and luxury apartments</p>
+            </div>
+            <div class="wraper-icons">
+            <div class="footer-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+             </div>
+                <p class="copyright">© Copyright NINO BIBICHADZE 2022</p>
+            </div>
+        <div class="footer-div2">
+            <p class="footer-h">Useful Links</p>
+            <p class="footer-p">About</p>
+            <p class="footer-p">Partners</p>
+            <p class="footer-p">Contact</p>
+        </div>
+        <div class="footer-div3">
+            <p class="footer-h">Help?</p>
+            <p class="footer-p">FAQ</p>
+            <p class="footer-p">Terms & Conditions</p>
+            <p class="footer-p">Policy</p>
+            <p class="footer-p">Privacy</p>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

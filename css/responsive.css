@@ -1,0 +1,230 @@
+
+@media (max-width: 750px) {
+    .header {
+        flex-direction: column;
+        margin-bottom: 55px;
+    }
+    .nav-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .burger {
+        display: block;
+    }
+    .nav-li {
+        margin-right: 0;
+    }
+    .nav-li1 {
+        margin-right: 0;
+    }
+    .nav-li2 {
+        margin-right: 0;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.activenav {
+        display: block;
+    }
+    .header-img3 {
+        display: none;
+    }
+    .q-inside1 {
+        padding: 20px;
+
+    }
+}
+@media (max-width:700px) {
+    .inside-wraper {
+        max-width: 300px;
+    }
+}
+@media (max-width:680px) {
+    .section2-div {
+        max-width: 230px;
+        width: 100%;
+        height: 280px;
+    }
+    .little-image1 {
+        width: 200px;
+        height: 204px;
+    }
+    .section2 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .continue {
+        font-size: 15px;
+    }
+    .div-continue {
+        max-width: 100px;
+        width: 100%;
+        height: 30px;
+    }
+    .section2-p {
+        font-size: 20px;
+    }
+    .boxes {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .boxes1{
+        width: 18px;
+        height: 18px;
+    }
+    .hi {
+        font-size: 30px;
+    }
+    .select {
+        font-size: 20px;
+    }
+    .featured {
+        font-size:30px
+    }
+    .apart {
+        font-size:30px
+    }
+    .themost {
+        font-size: 20px;
+    }
+    .multi-h {
+        font-size: 20px;
+    }
+    .multi-text {
+        font-size: 14px;
+    }
+    .buy-h {
+        font-size: 30px;
+    }
+    .see {
+        width:140px;
+        height: 50px;
+    }
+    .see-p {
+        font-size: 13px;
+    }
+    .q-h {
+        font-size: 30px;
+    }
+}
+@media (max-width:540px) {
+    .section2-div {
+        max-width: 180px;
+        width: 100%;
+        height: 200px;
+    }
+    .little-image1 {
+        width: 160px;
+        height: 160px;
+    }
+    .section2 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:480px) {
+    .section2-div {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 15px;
+
+    }
+    .little-image1 {
+        width: 270px;
+        height: 224px;
+    }
+        .section2 {
+            margin-bottom: 15px;
+    }   
+}
+@media (max-width:622px) {
+    .inside-wraper {
+        max-width: 250px;
+    }
+    .wraper-img {
+        max-width: 250px;
+        width: 100%;
+        height: 250px;
+        border-radius: 14px;
+    }
+    .wraper-h {
+        color: black;
+        font-size: 18px;
+        margin-bottom: 6px;
+        font-family: 'Lato';
+    }
+    .wraper-text {
+        margin-bottom: 6px;
+        width: 230px;
+        height: 44px;
+        color: black;
+        font-size: 12px;
+        font-family: 'Lato';
+    }
+}
+@media (max-width:520px) {
+    .inside-wraper {
+        max-width: 380px;
+        width: 100%;
+    }
+    .wraper-img {
+        max-width: 360px;
+        width: 100%;
+        height: 277px;
+
+    }
+    .wraper-h {
+        font-size: 22px;
+    }
+    .wraper-text {
+        width: 280px;
+        height: 44px;
+        font-size: 14px;
+    }
+}
+@media (max-width:640px) {
+    .biggie2 {
+        max-width: 620px;
+        height: 382px;
+    }
+    .house2 {
+        max-width: 250px;
+        width: 100%;
+    }
+    .buy-h {
+        font-size: 30px;
+    }
+}
+@media (max-width: 734px) {
+    .big-div1 {
+        height: auto;
+    }
+}
+@media (max-width: 640px) {
+    .inside-div1 {
+        position: absolute;
+        max-width: 374px;
+        width: 90%;
+        top: 80px;
+    }
+    .block-h {
+        max-width: 320px;
+        width: 100%;
+        font-size: 45px;
+        color: black;
+        font-family: 'Lato';
+    }
+    .block-p1 {
+        max-width: 320px;
+        width: 100%;
+        font-size: 14px;
+        margin-top: 20px;
+        color: black;
+        font-family: 'Lato';
+    }
+}
+@media (max-width: 414px) {
+    .footer-div3 {
+        display: none;
+    }
+}
