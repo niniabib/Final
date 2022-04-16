@@ -15,6 +15,9 @@
     margin-right: 40px;
     font-weight: bold;
 }
+.rental:hover {
+    font-size: 31px;
+}
 .letter {
     font-size: 37px;
     color: black;
@@ -33,11 +36,17 @@
     margin-right: 40px;
     font-family: 'Lato';
 }
+.nav-li:hover {
+    font-size: 22px;
+}
 .nav-li1 {
     color: black;
     font-size: 20px;
     margin-right: 40px;
     font-family: 'Lato';
+}
+.nav-li1:hover {
+    font-size: 22px;
 }
 .nav-li2 {
     color: black;
@@ -45,10 +54,16 @@
     margin-right: 40px;
     font-family: 'Lato';
 }
+.nav-li3:hover {
+    font-size: 22px;
+}
 .nav-li3 {
     color: black;
     font-size: 20px;
     font-family: 'Lato';
+}
+.nav-li3:hover {
+    font-size: 22px;
 }
 .header2 {
     max-width: 189px;
@@ -295,36 +310,6 @@
     align-items: center;
     padding: 10px;
 }
-/*.p1 {
-    font-size: 26px;
-    color: black;
-    font-family: 'Lato';
-}
-.p2 {
-    font-size: 26px;
-    color: black;
-    font-family: 'Lato';
-}
-.p3 {
-    font-size: 26px;
-    color: black;
-    font-family: 'Lato';
-}
-.p4 {
-    font-size: 23px;
-    color: black;
-    font-family: 'Lato';
-}
-.p5 {
-    font-size: 23px;
-    color: black;
-    font-family: 'Lato';
-}
-.p6 {
-    font-size: 23px;
-    color: black;
-    font-family: 'Lato';
-}*/
 
 .big-inside3 {
     width: 122px;
@@ -394,6 +379,7 @@
     padding: 3px;
     margin-bottom: 20px;
 }
+
 .little-image1 {
     width: 270px;
     height: 224px;
@@ -406,6 +392,9 @@
     color: black;
     font-family: 'Lato';
 }
+.section2-p:hover {
+    font-size: 25px;
+}
 .div-continue {
     max-width: 191px;
     width: 100%;
@@ -417,10 +406,14 @@
     align-items: center;
     margin:0 auto;
 }
+
 .continue {
     font-size: 20px;
     color: white;
     font-family: 'Lato';
+}
+.continue:hover {
+    font-size: 21px;
 }
 .btn-search {
     background-color: antiquewhite;
@@ -445,6 +438,9 @@
     height: 25px;
     border-radius: 50px;
     background-color: black;
+}
+.boxes1:hover {
+    background-color: antiquewhite;
 }
 .boxes1:nth-child(2) {
     margin-left: 15px;
@@ -599,16 +595,7 @@
     height: 34px;
     background-color: #FFDAB9;
 }
-
-
-
-
 /*page3*/
-/*.multi-sec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
 .apart {
     width: auto;
     font-size: 48px;
@@ -617,22 +604,14 @@
     margin:0 auto;
     font-family: 'Lato';
     color: black;
+    padding: 10px;
 }
-/*.multi-div {
-    max-width: 1077px;
-    width: 100%;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}*/
 .multi2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 10px;
     flex-wrap: wrap;
     color: black;
 }
@@ -752,6 +731,9 @@
     margin-bottom: 3px;
     margin-top: 20px;
     font-family: 'Lato';
+}
+.q-inside1:hover {
+    background-color: antiquewhite;
 }
 .q-h3 {
     font-size: 18px;

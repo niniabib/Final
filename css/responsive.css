@@ -11,14 +11,29 @@
     .burger {
         display: block;
     }
+    .burger:hover {
+        font-size: 32px;
+    }
     .nav-li {
         margin-right: 0;
+        background-color: antiquewhite;
+        border-radius: 15px;
+        border-color: black;
     }
     .nav-li1 {
         margin-right: 0;
+        background-color: antiquewhite;
+        border-radius: 15px;
     }
     .nav-li2 {
         margin-right: 0;
+        background-color: antiquewhite;
+        border-radius: 15px;
+    }
+    .nav-li3 {
+        margin-right: 0;
+        background-color: antiquewhite;
+        border-radius: 15px;
     }
     .navigation {
         display: none;
